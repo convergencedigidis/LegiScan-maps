@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h1>DigiDis Legiscan Maps</h2>
+
+<div class="row">
+  <div class="column">
+	<p><a href="https://dylanatwork.github.io/LegiScan-maps/index.html">Map of all DigiDis bills</a></p>
+	<p><a href="https://dylanatwork.github.io/LegiScan-maps/censorship.html">Map of anti-censorship bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/elections.html">Map of election-related bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/platforms.html">Map of bills that would regulate platforms</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/campaigns.html">Map of bills about campaigns/candidates</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/antitrust.html">Map of antitrust bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/resolutions.html">Map of resolutions & declarations</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/s230.html">Map of Section 230 bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/departments.html">Map of bills that create new departments/bodies</a></p>
+	<p><a href="https://dylanatwork.github.io/LegiScan-maps/deepfakes.html">Map of bills for deepfakes & doctored content</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/foreign.html">Map of foreign policy bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/ethics.html">Map of bills involving ethics or government officials</a></p>
+	<p><a href="https://dylanatwork.github.io/LegiScan-maps/grants.html">Map of proposed grants/appropriations</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/transparency.html">Map of transparency bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/covid.html">Map of COVID-related bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/radicalism.html">Map of bills on violence, radicalism, terrorism & Jan 6</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/ads.html">Map of bills relating to advertisements</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/harassment.html">Map of harassment bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/education.html">Map of education bills</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/impersonation.html">Map of bills on impersonation</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/divestment.html">Map of bills to divest from platforms</a></p>
+  	<p><a href="https://dylanatwork.github.io/LegiScan-maps/awareness.html">Map of bills on public awareness campaigns</a></p>
+  </div>
+  
+  <div class="column">
+    <script type="text/javascript">(function() {
+  var legiscan = document.createElement('script');
+  legiscan.type = 'text/javascript'; legiscan.id = 'legiscan_widget_script';
+  legiscan.src = 'https://acme.legiscan.com/widget.php?key=3syfdf0i';
+  document.getElementsByTagName('body')[0].appendChild(legiscan);
+})();</script>
+	<div id="legiscan-map"></div>
+  </div>
+</div>
+
+</body>
+</html>
